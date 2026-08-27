@@ -342,12 +342,68 @@ footer {
   font-size: 14px;
 }
 
+
+/* People */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.person-card {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.person-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+
+.person-info h3 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.person-role {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.person-info p {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+
+.person-topics {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent-dark) !important;
+}
+
+
 /* Responsive */
 
 @media (max-width: 850px) {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 35px;
+  }
+
+  .people-grid {
+  grid-template-columns: 1fr;
   }
 
   .profile-photo {
@@ -388,4 +444,14 @@ footer {
   .section-heading {
     font-size: 29px;
   }
+  .person-card {
+  flex-direction: column;
+  }
+
+  .person-photo {
+    width: 95px;
+    height: 95px;
+  }
 }
+
+
