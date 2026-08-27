@@ -3,307 +3,755 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Zhou Zhang, Ph.D. | Academic Profile</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Zhou Zhang, Ph.D. | Robotics, AI & Engineering Research</title>
 
   <meta
     name="description"
-    content="Professional academic website of Zhou Zhang, Ph.D., featuring research, publications, teaching, and projects in robotics, artificial intelligence, digital twins, and engineering education."
+    content="Academic website of Zhou Zhang, Ph.D., Assistant Professor at Farmingdale State College, SUNY. Research in robotics, artificial intelligence, computer vision, digital twins, human-robot interaction, and engineering education."
   >
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #222;
-      line-height: 1.6;
-      background: #ffffff;
-    }
-
-    header {
-      border-bottom: 1px solid #e5e5e5;
-      background: #ffffff;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    nav {
-      max-width: 1100px;
-      margin: auto;
-      padding: 18px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav .name {
-      font-size: 20px;
-      font-weight: 700;
-    }
-
-    nav a {
-      color: #333;
-      text-decoration: none;
-      margin-left: 22px;
-      font-size: 15px;
-    }
-
-    nav a:hover {
-      color: #0066cc;
-    }
-
-    .hero {
-      max-width: 1100px;
-      margin: auto;
-      padding: 100px 24px 80px;
-    }
-
-    .hero h1 {
-      font-size: 52px;
-      margin: 0 0 12px;
-      line-height: 1.1;
-    }
-
-    .hero h2 {
-      font-size: 24px;
-      font-weight: 400;
-      color: #555;
-      margin-bottom: 24px;
-    }
-
-    .hero p {
-      max-width: 750px;
-      font-size: 18px;
-      color: #555;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 18px;
-      margin-right: 10px;
-      padding: 10px 18px;
-      border: 1px solid #222;
-      border-radius: 6px;
-      text-decoration: none;
-      color: #222;
-      font-weight: 600;
-    }
-
-    .button:hover {
-      background: #222;
-      color: white;
-    }
-
-    section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 65px 24px;
-    }
-
-    section h2 {
-      font-size: 32px;
-      margin-bottom: 25px;
-    }
-
-    .research-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      padding: 24px;
-    }
-
-    .card h3 {
-      margin-top: 0;
-    }
-
-    footer {
-      margin-top: 60px;
-      border-top: 1px solid #e5e5e5;
-      text-align: center;
-      padding: 30px;
-      color: #777;
-      font-size: 14px;
-    }
-
-    @media (max-width: 700px) {
-      .hero h1 {
-        font-size: 38px;
-      }
-
-      nav .links {
-        display: none;
-      }
-    }
-  </style>
+  <link
+    rel="stylesheet"
+    href="assets/css/style.css"
+  >
 </head>
+
 
 <body>
 
-<header>
-  <nav>
-    <div class="name">Zhou Zhang</div>
+<!-- =========================
+     Navigation
+========================= -->
 
-    <div class="links">
+<header class="site-header">
+
+  <nav class="navbar">
+
+    <a
+      class="site-name"
+      href="#home"
+    >
+      Zhou Zhang
+    </a>
+
+    <div class="nav-links">
+
       <a href="#about">About</a>
+
       <a href="#research">Research</a>
+
       <a href="#publications">Publications</a>
+
+      <a href="#projects">Projects</a>
+
       <a href="#teaching">Teaching</a>
+
+      <a href="#highlights">Highlights</a>
+
       <a href="#contact">Contact</a>
+
+      <a
+        href="assets/documents/Zhou_Zhang_CV.pdf"
+        target="_blank"
+      >
+        CV
+      </a>
+
     </div>
+
   </nav>
+
 </header>
 
 
 <main>
 
-  <section class="hero">
+<!-- =========================
+     Hero
+========================= -->
 
-    <h1>Zhou Zhang, Ph.D.</h1>
+<section
+  class="hero"
+  id="home"
+>
 
-    <h2>
-      Assistant Professor | Robotics • Artificial Intelligence •
-      Digital Twins • Engineering Education
-    </h2>
+  <div class="container hero-grid">
 
-    <p>
-      My research focuses on intelligent robotic systems,
-      computer vision, human–robot interaction, digital twins,
-      artificial intelligence, and emerging technologies for
-      engineering education.
-    </p>
+    <div>
 
-    <a class="button"
-       href="https://github.com/Zhou-Joe-Zhang">
-       GitHub
-    </a>
+      <img
+        class="profile-photo"
+        src="assets/images/profile.jpg"
+        alt="Zhou Zhang"
+      >
 
-    <a class="button"
-       href="#research">
-       Research
-    </a>
-
-  </section>
+    </div>
 
 
-  <section id="about">
+    <div class="hero-content">
 
-    <h2>About</h2>
+      <h1>Zhou Zhang, Ph.D.</h1>
 
-    <p>
-      I am an engineering researcher and educator working at the
-      intersection of robotics, artificial intelligence, computer
-      vision, digital twins, human–computer interaction, and
-      engineering education.
-    </p>
-
-    <p>
-      My work combines computational methods with physical
-      engineering systems, with particular interests in intelligent
-      automation, collaborative robotics, AI-enabled engineering
-      tools, and immersive simulation.
-    </p>
-
-  </section>
-
-
-  <section id="research">
-
-    <h2>Research Areas</h2>
-
-    <div class="research-grid">
-
-      <div class="card">
-        <h3>Robotics</h3>
-        <p>
-          Collaborative robotics, intelligent automation,
-          robotic perception, and human–robot interaction.
-        </p>
+      <div class="preferred-name">
+        Preferred name: Joe
       </div>
 
-      <div class="card">
-        <h3>Artificial Intelligence</h3>
-        <p>
-          Computer vision, deep learning, generative AI,
-          and AI-enabled engineering systems.
-        </p>
-      </div>
+      <p class="position">
+        Assistant Professor
+      </p>
 
-      <div class="card">
-        <h3>Digital Twins</h3>
-        <p>
-          Physical–virtual synchronization, simulation,
-          motion mapping, and cyber-physical systems.
-        </p>
-      </div>
+      <p class="institution">
+        Department of Mechanical Engineering Technology<br>
+        Farmingdale State College, State University of New York
+      </p>
 
-      <div class="card">
-        <h3>Engineering Education</h3>
-        <p>
-          AI-supported learning, virtual laboratories,
-          collaborative learning, and emerging educational
-          technologies.
-        </p>
+
+      <p class="research-line">
+        Robotics · Artificial Intelligence · Computer Vision ·
+        Digital Twins · Human–Robot Interaction · Engineering Education
+      </p>
+
+
+      <p class="hero-bio">
+
+        My research focuses on intelligent robotic and
+        cyber-physical systems that integrate artificial intelligence,
+        computer vision, simulation, human–robot interaction, and
+        engineering education.
+
+        I am particularly interested in developing practical
+        AI-enabled technologies that connect computational intelligence
+        with physical engineering systems.
+
+      </p>
+
+
+      <div class="profile-links">
+
+        <a
+          class="button button-primary"
+          href="assets/documents/Zhou_Zhang_CV.pdf"
+          target="_blank"
+        >
+          Curriculum Vitae
+        </a>
+
+
+        <a
+          class="button"
+          href="https://github.com/Zhou-Joe-Zhang"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+
+        <a
+          class="button"
+          href="#publications"
+        >
+          Publications
+        </a>
+
+
+        <a
+          class="button"
+          href="#research"
+        >
+          Research
+        </a>
+
       </div>
 
     </div>
 
-  </section>
+  </div>
+
+</section>
 
 
-  <section id="publications">
 
-    <h2>Selected Publications</h2>
+<!-- =========================
+     About
+========================= -->
 
-    <p>
-      Selected journal articles, conference papers, book chapters,
-      and patents will be listed here.
+<section
+  class="section-alt"
+  id="about"
+>
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      About
+    </h2>
+
+
+    <div class="about-text">
+
+      <p>
+
+        I am an Assistant Professor in the Department of Mechanical
+        Engineering Technology at Farmingdale State College, State
+        University of New York.
+
+        My academic and professional work spans mechanical engineering,
+        electrical engineering, robotics, automation, artificial
+        intelligence, computer vision, immersive simulation, and
+        engineering education.
+
+      </p>
+
+
+      <p>
+
+        My research emphasizes the integration of intelligent
+        computational methods with physical engineering systems.
+
+        Current interests include collaborative robotics,
+        AI-enabled robotic perception, digital twins,
+        human–computer and human–robot interaction,
+        computer vision, virtual and augmented environments,
+        and innovative approaches to engineering education.
+
+      </p>
+
+
+      <p>
+
+        I also have extensive experience in engineering education,
+        curriculum development, applied research, and interdisciplinary
+        engineering projects involving students at both undergraduate
+        and graduate levels.
+
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Research
+========================= -->
+
+<section id="research">
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Research
+    </h2>
+
+
+    <p class="section-intro">
+
+      My research combines artificial intelligence with robotic,
+      cyber-physical, and educational systems, with emphasis on
+      applied engineering problems and human-centered technology.
+
     </p>
 
-  </section>
+
+    <div class="card-grid">
 
 
-  <section id="teaching">
+      <article class="card">
 
-    <h2>Teaching</h2>
+        <h3>
+          Robotics & Intelligent Automation
+        </h3>
 
-    <p>
-      Courses and teaching materials in robotics, automation,
-      manufacturing, tool design, engineering computation,
-      electronics packaging, and related engineering technologies.
+        <p>
+
+          Collaborative robotics, robotic perception,
+          intelligent automation, motion control,
+          autonomous systems, and human–robot interaction.
+
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Artificial Intelligence & Computer Vision
+        </h3>
+
+        <p>
+
+          Deep learning, object detection, pose estimation,
+          multimodal sensing, generative AI, and AI-enabled
+          engineering applications.
+
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Digital Twins & Cyber-Physical Systems
+        </h3>
+
+        <p>
+
+          Physical–virtual synchronization, real-time motion mapping,
+          simulation, virtual robotic environments, and
+          data-driven cyber-physical systems.
+
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Engineering Education
+        </h3>
+
+        <p>
+
+          AI-supported learning, flipped classrooms,
+          collaborative learning, virtual laboratories,
+          open educational resources, and emerging
+          educational technologies.
+
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Virtual & Mixed Reality
+        </h3>
+
+        <p>
+
+          Immersive engineering environments,
+          Unity and Unreal Engine applications,
+          virtual laboratories, simulation,
+          and human–computer interaction.
+
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Mechatronics & Smart Systems
+        </h3>
+
+        <p>
+
+          Sensors, actuators, embedded systems,
+          industrial automation, control,
+          IoT, and integrated electromechanical systems.
+
+        </p>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Publications
+========================= -->
+
+<section
+  class="section-alt"
+  id="publications"
+>
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Selected Publications
+    </h2>
+
+
+    <p class="section-intro">
+
+      Selected research publications are highlighted below.
+      A complete publication list will be available through
+      my curriculum vitae and academic profiles.
+
     </p>
 
-  </section>
+
+    <article class="publication">
+
+      <div class="publication-title">
+
+        The YOLO Framework:
+        A Comprehensive Review of Evolution,
+        Applications, and Benchmarks in Object Detection
+
+      </div>
+
+      <div class="publication-meta">
+
+        Computers · Review article ·
+        Computers Best Paper Award
+
+      </div>
+
+    </article>
 
 
-  <section id="contact">
+    <article class="publication">
 
-    <h2>Contact</h2>
+      <div class="publication-title">
 
-    <p>
-      Professional contact information, Google Scholar,
-      ORCID, LinkedIn, and other academic profiles will be
-      added here.
+        AI-Powered Flipped Collaborative Simulation
+        in Electronics Packaging Education
+
+      </div>
+
+      <div class="publication-meta">
+
+        Engineering education research
+
+      </div>
+
+    </article>
+
+
+    <article class="publication">
+
+      <div class="publication-title">
+
+        Hybrid Physics–AI Modeling for
+        Eddy Current Force Prediction
+
+      </div>
+
+      <div class="publication-meta">
+
+        Artificial intelligence ·
+        computational engineering ·
+        electromagnetic systems
+
+      </div>
+
+    </article>
+
+
+    <p style="margin-top: 28px;">
+
+      <a href="assets/documents/Zhou_Zhang_CV.pdf"
+         target="_blank">
+        View complete publication list in CV →
+      </a>
+
     </p>
 
-  </section>
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Projects
+========================= -->
+
+<section id="projects">
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Selected Research Projects
+    </h2>
+
+
+    <div class="project-grid">
+
+
+      <article class="project">
+
+        <h3>
+          Digital Twin Motion Mapping
+        </h3>
+
+        <p>
+
+          Real-time synchronization of physical robotic systems
+          with virtual environments using Unreal Engine,
+          with emphasis on motion fidelity, latency,
+          and task-space accuracy.
+
+        </p>
+
+      </article>
+
+
+      <article class="project">
+
+        <h3>
+          AI-Enabled Collaborative Robotics
+        </h3>
+
+        <p>
+
+          Integration of artificial intelligence,
+          computer vision, simulation,
+          and human–robot collaboration for
+          intelligent robotic systems.
+
+        </p>
+
+      </article>
+
+
+      <article class="project">
+
+        <h3>
+          Intelligent Engineering Education
+        </h3>
+
+        <p>
+
+          Development and evaluation of AI-supported,
+          simulation-based, collaborative,
+          and immersive learning environments
+          for engineering education.
+
+        </p>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Teaching
+========================= -->
+
+<section
+  class="section-alt"
+  id="teaching"
+>
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Teaching
+    </h2>
+
+
+    <p class="section-intro">
+
+      My teaching focuses on connecting engineering fundamentals
+      with modern computational, automation, simulation,
+      and intelligent-system technologies.
+
+    </p>
+
+
+    <div class="course-list">
+
+
+      <div class="course">
+        <strong>Tool Design</strong>
+        Manufacturing and tooling systems
+      </div>
+
+
+      <div class="course">
+        <strong>Automation & Control</strong>
+        PLCs, industrial control, automation, and process systems
+      </div>
+
+
+      <div class="course">
+        <strong>Electronics Packaging</strong>
+        Thermal, mechanical, and reliability analysis
+      </div>
+
+
+      <div class="course">
+        <strong>Manufacturing Processes</strong>
+        Manufacturing methods and laboratory applications
+      </div>
+
+
+      <div class="course">
+        <strong>Engineering Computational Methods</strong>
+        Computational tools and engineering problem solving
+      </div>
+
+
+      <div class="course">
+        <strong>Robotics & Mechatronics</strong>
+        Intelligent systems, sensing, control, and robotic applications
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Highlights
+========================= -->
+
+<section id="highlights">
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Selected Highlights
+    </h2>
+
+
+    <ul class="highlight-list">
+
+      <li>
+        Research in robotics, artificial intelligence,
+        digital twins, computer vision,
+        and engineering education.
+      </li>
+
+      <li>
+        Recipient of research and educational grants supporting
+        AI, digital-twin, open educational resource,
+        and engineering-education projects.
+      </li>
+
+      <li>
+        Author of journal articles, conference papers,
+        book chapters, and patents.
+      </li>
+
+      <li>
+        Active contributor to engineering research,
+        peer review, mentoring,
+        and professional academic service.
+      </li>
+
+    </ul>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Contact
+========================= -->
+
+<section
+  class="section-alt"
+  id="contact"
+>
+
+  <div class="container">
+
+    <h2 class="section-heading">
+      Contact
+    </h2>
+
+
+    <div class="contact-box">
+
+      <strong>
+        Zhou Zhang, Ph.D.
+      </strong>
+
+      <p>
+
+        Assistant Professor<br>
+
+        Department of Mechanical Engineering Technology<br>
+
+        Farmingdale State College<br>
+
+        State University of New York
+
+      </p>
+
+
+      <p>
+
+        GitHub:
+        <a
+          href="https://github.com/Zhou-Joe-Zhang"
+          target="_blank"
+          rel="noopener"
+        >
+          github.com/Zhou-Joe-Zhang
+        </a>
+
+      </p>
+
+
+      <p>
+
+        Additional links to Google Scholar,
+        ORCID, LinkedIn, and institutional profiles
+        will be added here.
+
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
 
 </main>
 
 
+
+<!-- =========================
+     Footer
+========================= -->
+
 <footer>
-  © 2026 Zhou Zhang. All rights reserved.
+
+  © 2026 Zhou Zhang.
+  Academic and professional website.
+
 </footer>
 
+
 </body>
+
 </html>
